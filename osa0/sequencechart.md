@@ -1,6 +1,10 @@
 Here is the sequence diagram (https://studies.cs.helsinki.fi/exampleapp/notes):
 
 ```mermaid
-graph TD;
-  A-->B;
+sequenceDiagram
+  participant Alice
+  participant Bob
+  browser->>server: Hi Alice
+  server->>browser: Hi Bob
+
 ```
