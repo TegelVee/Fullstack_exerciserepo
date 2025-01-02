@@ -6,7 +6,11 @@ sequenceDiagram
   participant server
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
   activate server
-  server->>browser: Html-document
+  server-->>browser: Html document
   deactivate server
+
+  browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes/main.css
+  activate server
+  server-->browser: The CSS file
 
 ```
