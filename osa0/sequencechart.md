@@ -4,7 +4,9 @@ Here is the sequence diagram (https://studies.cs.helsinki.fi/exampleapp/notes):
 sequenceDiagram
   participant browser
   participant server
-  browser->>server: Hi Alice
-  server->>browser: Hi Bob
+  browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+  activate server
+  server->>browser: Html-document
+  deactivate server
 
 ```
