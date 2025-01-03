@@ -4,6 +4,7 @@ Here is the sequence diagram (https://studies.cs.helsinki.fi/exampleapp/notes):
 sequenceDiagram
   participant browser
   participant server
+  Note over browser,server: I write a new note in the note field.
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
   activate server
   server-->>browser: server redirects the browser
