@@ -30,6 +30,11 @@ sequenceDiagram
   server-->>browser: The JavaScript file
   deactivate server
 
-  
+  activate browser
+  browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+  deactivate browser
+  activate server
+  server-->>browser: [{"content": "8","date": "2025-01-02T00:04:15.729Z"},...
+  deactivate server
 
 ```
