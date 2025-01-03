@@ -8,7 +8,7 @@ sequenceDiagram
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
   activate server
   Note over server: Status code: 302 Found
-  server-->>browser: server redirects the browser
+  server-->>browser: server asks the browser to go again to the note webpage
   deactivate server
   
   activate browser
