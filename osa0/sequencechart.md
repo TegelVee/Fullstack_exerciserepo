@@ -7,6 +7,7 @@ sequenceDiagram
   Note over browser: I write a new note in the note field.
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
   activate server
+  Note over server: Status code: 302 Found
   server-->>browser: server redirects the browser
   deactivate server
   
