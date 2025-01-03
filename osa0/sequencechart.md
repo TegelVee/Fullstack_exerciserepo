@@ -17,11 +17,19 @@ sequenceDiagram
   deactivate server
 
   activate browser
-  browser->>>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
+  browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
   deactivate browser
   activate server
   server-->>browser: The CSS file
+  deactivate server
 
-   
+  activate browser
+  browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+  deactivate browser
+  activate server
+  server-->>browser: The JavaScript file
+  deactivate server
+
+  
 
 ```
