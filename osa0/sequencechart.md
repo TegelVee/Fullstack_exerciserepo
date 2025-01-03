@@ -38,5 +38,7 @@ sequenceDiagram
   activate server
   server-->>browser: [{"content": "8","date": "2025-01-02T00:04:15.729Z"},...
   deactivate server
+  activate browser
+  Note over browser: The browser renders the notes.
 
 ```
