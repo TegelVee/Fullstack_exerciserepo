@@ -4,7 +4,7 @@ Here is the sequence diagram (https://studies.cs.helsinki.fi/exampleapp/notes):
 sequenceDiagram
   participant browser
   participant server
-  Note over browser: I write a new note "matkalla" in the note field.
+  Note over browser: I write a new note "matkalla" in the note field and press the save button.
   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
   activate server
   Note over server: Status code: 302 Found
