@@ -1,3 +1,3 @@
-Here comes the answer to exercise 0.4 where I am asked to draw a sequence diagram on what happens when loading a new note on this webpage: https://studies.cs.helsinki.fi/exampleapp/notes
+Here are the answers to exercises 0.4, 0.5 and 0.6. See the task descriptions here: https://fullstackopen.com/osa0/web_sovelluksen_toimintaperiaatteita#tehtavia 
 
-I made the chart here in GitHub by using mermaid.
+I made the sequence charts here in GitHub by using mermaid.
