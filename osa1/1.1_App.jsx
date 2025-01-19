@@ -1,4 +1,4 @@
-// TÄSSÄ ON REFAKTOROITU TEHTÄVÄN 1.1 Part1-tehtävän koodi.
+// TÄSSÄ ON REFAKTOROITU TEHTÄVÄN 1.1 Part1-tehtävän koodi (https://fullstackopen.com/osa1/reactin_alkeet#tehtavat-1-1-1-2)
 
 // Määritellään sovellus eli App.
 const App = () => {
