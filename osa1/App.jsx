@@ -1,3 +1,5 @@
+// TÄSSÄ ON REFAKTOROITU TEHTÄVÄN 1.1 Part1-tehtävän koodi.
+
 // Määritellään sovellus eli App.
 const App = () => {
 
